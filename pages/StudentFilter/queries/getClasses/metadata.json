@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6825b2bdd5842539393cc239_8a0dde17-ce9b-452c-ac0e-efe983f063f9",
-  "id": "Page1_getStudentData",
+  "gitSyncId": "6825b2bdd5842539393cc239_cad13173-c1ca-406b-8410-0b321d23bedb",
+  "id": "StudentFilter_getClasses",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT *  FROM public.student_data\nWHERE school_name = {{school_name.selectedOptionValue || '%'}}\nAND class = {{class_name.selectedOptionValue || '%'}}\nAND section = {{section.selectedOptionValue || '%'}}\n",
+      "body": "SELECT DISTINCT class FROM public.student_data;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,14 +22,10 @@
       "name": "StudentDB",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "getStudentData",
-    "pageId": "Page1",
+    "name": "getClasses",
+    "pageId": "StudentFilter",
     "userSetOnLoad": false
   }
 }

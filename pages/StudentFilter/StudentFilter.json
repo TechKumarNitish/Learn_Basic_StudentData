@@ -1,6 +1,7 @@
 {
   "gitSyncId": "6825b2bdd5842539393cc239_c6c71459-21d2-45ac-8a7a-f6f5b01c9807",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "StudentFilter",
+    "slug": "studentfilter"
   }
 }

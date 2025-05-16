@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6825b2bdd5842539393cc239_cad13173-c1ca-406b-8410-0b321d23bedb",
-  "id": "Page1_getClasses",
+  "gitSyncId": "6825b2bdd5842539393cc239_e9e4bce4-4db2-417e-adbb-799e2ca9227d",
+  "id": "StudentFilter_getSections",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT class FROM public.student_data;",
+      "body": "SELECT DISTINCT section FROM public.student_data;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -24,8 +24,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "getClasses",
-    "pageId": "Page1",
+    "name": "getSections",
+    "pageId": "StudentFilter",
     "userSetOnLoad": false
   }
 }

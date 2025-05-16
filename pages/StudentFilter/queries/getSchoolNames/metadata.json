@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6825b2bdd5842539393cc239_1f95ae34-baf1-4ee4-9c16-565de53519a7",
-  "id": "Page1_getSchoolNames",
+  "id": "StudentFilter_getSchoolNames",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -25,7 +25,7 @@
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "getSchoolNames",
-    "pageId": "Page1",
+    "pageId": "StudentFilter",
     "userSetOnLoad": false
   }
 }
