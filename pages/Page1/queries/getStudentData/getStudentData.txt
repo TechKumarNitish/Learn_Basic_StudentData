@@ -1,0 +1,4 @@
+SELECT *  FROM public.student_data
+WHERE school_name = {{school_name.selectedOptionValue || '%'}}
+AND class = {{class_name.selectedOptionValue || '%'}}
+AND section = {{section.selectedOptionValue || '%'}}

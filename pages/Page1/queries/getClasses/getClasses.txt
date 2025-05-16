@@ -1,0 +1,1 @@
+SELECT DISTINCT class FROM public.student_data;

@@ -1,0 +1,1 @@
+SELECT DISTINCT school_name FROM public.student_data;
