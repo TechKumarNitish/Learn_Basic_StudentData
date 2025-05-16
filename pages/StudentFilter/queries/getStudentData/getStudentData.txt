@@ -1,4 +1,7 @@
-SELECT *  FROM public.student_data
-WHERE school_name = {{school_name.selectedOptionValue || '%'}}
-AND class = {{class_name.selectedOptionValue || '%'}}
-AND section = {{section.selectedOptionValue || '%'}}
+SELECT * FROM public.student_data
+WHERE 
+  ({{!school_name.selectedOptionValue}} OR school_name = {{school_name.selectedOptionValue}})
+  AND
+  ({{!class_name.selectedOptionValue}} OR class = {{class_name.selectedOptionValue}})
+  AND
+  ({{!section.selectedOptionValue}} OR section = {{section.selectedOptionValue}})

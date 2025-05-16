@@ -4,13 +4,10 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 14,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \n            {\n              label: class_name.options[0].label,\n              value: class_name.options[0].value\n            }\n          ))(class_name.options, class_name.serverSideFiltering) }}",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "defaultOptionValue"
     },
     {
       "key": "accentColor"
