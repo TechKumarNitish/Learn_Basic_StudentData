@@ -37,10 +37,9 @@
     "student_name",
     "class",
     "section",
-    "school_name",
-    "id"
+    "school_name"
   ],
-  "columnUpdatedAt": 1747368270250,
+  "columnUpdatedAt": 1748587681320,
   "columnWidthMap": {
     "class": 111,
     "id": 62,
@@ -83,9 +82,6 @@
     },
     {
       "key": "primaryColumns.roll_number.computedValue"
-    },
-    {
-      "key": "primaryColumns.id.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -98,7 +94,7 @@
   "endOfData": false,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
-  "inlineEditingSaveOption": "ROW_LEVEL",
+  "inlineEditingSaveOption": "CUSTOM",
   "isLoading": false,
   "isSortable": true,
   "isVisible": true,
@@ -148,38 +144,6 @@
       "originalId": "class",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "id": {
-      "alias": "id",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "cellBackground": "#ffffff",
-      "columnType": "number",
-      "computedValue": "{{student_data.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "id",
-      "index": 0,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "id",
-      "notation": "standard",
-      "originalId": "id",
-      "sticky": "right",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -327,7 +291,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 59,
   "searchKey": "",
-  "tableData": "{{getStudentData.data}}",
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{getAllStudent.data.data.student_data}}",
   "textSize": "0.875rem",
   "topRow": 45,
   "totalRecordsCount": 0,

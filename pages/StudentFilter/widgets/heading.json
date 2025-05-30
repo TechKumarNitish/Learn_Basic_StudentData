@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "🎓 Student Filter\n",
+  "text": "🎓 Student Filter",
   "textAlign": "CENTER",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
   "topRow": 1,

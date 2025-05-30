@@ -1,0 +1,11 @@
+{
+  classes: student_data(distinct_on: class) {
+    class
+  }
+	sections: student_data(distinct_on: section) {
+    section
+  }
+  schools: student_data(distinct_on: school_name) {
+    school_name
+  }
+}

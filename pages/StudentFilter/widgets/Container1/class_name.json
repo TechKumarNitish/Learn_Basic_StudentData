@@ -53,7 +53,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "serverSideFiltering": false,
-  "sourceData": "{{getClasses.data.map( (obj) =>{ return  {'label': obj.class, 'value': obj.class } })}}",
+  "sourceData": "{{getDropDown.data.data.classes.map( (obj) =>{ return  {'label': obj.class, 'value': obj.class } })}}",
   "topRow": 8,
   "type": "SELECT_WIDGET",
   "version": 1,

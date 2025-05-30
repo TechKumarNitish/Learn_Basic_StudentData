@@ -25,7 +25,7 @@
     "dynamicBindingPathList": [],
     "name": "getClasses",
     "pageId": "StudentFilter",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

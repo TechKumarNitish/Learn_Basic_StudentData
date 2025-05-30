@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6825b2bdd5842539393cc239_e7303c41-3aea-46b8-b715-07332bec6e5a",
+  "id": "StudentFilter_eventHandler",
+  "unpublishedCollection": {
+    "name": "eventHandler",
+    "pageId": "StudentFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

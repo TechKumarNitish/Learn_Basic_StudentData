@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6825b2bdd5842539393cc239_e9e4bce4-4db2-417e-adbb-799e2ca9227d",
-  "id": "StudentFilter_getSections",
+  "gitSyncId": "6825b2bdd5842539393cc239_5505ff25-1a4e-4d1d-b5b3-597f6e5ab4ee",
+  "id": "StudentFilter_createStudent",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT section FROM public.student_data;",
+      "body": "",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -23,7 +23,7 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "getSections",
+    "name": "createStudent",
     "pageId": "StudentFilter",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

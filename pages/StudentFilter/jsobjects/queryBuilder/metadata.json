@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6825b2bdd5842539393cc239_fd54b7dc-8bf8-4da4-94b2-4c92f99fc35d",
+  "id": "StudentFilter_queryBuilder",
+  "unpublishedCollection": {
+    "name": "queryBuilder",
+    "pageId": "StudentFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

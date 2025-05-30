@@ -31,7 +31,7 @@
   "mobileRightColumn": 15,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "onClick": "{{getStudentData.run()}}",
+  "onClick": "{{eventHandler.filterHandler();}}",
   "parentColumnSpace": 14.234375,
   "parentId": "pmqq8zu7y2",
   "parentRowSpace": 10,

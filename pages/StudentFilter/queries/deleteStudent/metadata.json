@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6825b2bdd5842539393cc239_8a0dde17-ce9b-452c-ac0e-efe983f063f9",
-  "id": "StudentFilter_getStudentData",
+  "gitSyncId": "6825b2bdd5842539393cc239_635c90e0-dd76-49fe-84ee-4a45eae73ce8",
+  "id": "StudentFilter_deleteStudent",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.student_data\nWHERE \n  ({{!school_name.selectedOptionValue}} OR school_name = {{school_name.selectedOptionValue}})\n  AND\n  ({{!class_name.selectedOptionValue}} OR class = {{class_name.selectedOptionValue}})\n  AND\n  ({{!section.selectedOptionValue}} OR section = {{section.selectedOptionValue}})\n",
+      "body": "DELETE FROM public.student_data\nwhere roll_number={{student_data.selectedRow.roll_number}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "name": "getStudentData",
+    "name": "deleteStudent",
     "pageId": "StudentFilter",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

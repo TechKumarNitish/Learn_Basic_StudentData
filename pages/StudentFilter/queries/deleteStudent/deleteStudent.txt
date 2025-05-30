@@ -1,0 +1,2 @@
+DELETE FROM public.student_data
+where roll_number={{student_data.selectedRow.roll_number}};
