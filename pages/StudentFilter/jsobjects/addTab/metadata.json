@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6825b2bdd5842539393cc239_cdac9c12-cb47-4bcc-b050-7dccfd797db3",
+  "id": "StudentFilter_addTab",
+  "unpublishedCollection": {
+    "name": "addTab",
+    "pageId": "StudentFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

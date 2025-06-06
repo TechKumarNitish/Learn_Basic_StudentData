@@ -1,0 +1,7 @@
+mutation ($object:student_data_insert_input!){
+  insert_student_data_one(
+    object:$object
+  ){
+    roll_number
+  }
+}

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "originalBottomRow": 10,
-  "originalTopRow": 6,
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 14.234375,
   "parentId": "0",
@@ -43,7 +43,7 @@
   "text": "Filter students by school, class, and section — instantly.",
   "textAlign": "CENTER",
   "textColor": "#9484f5",
-  "topRow": 6,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

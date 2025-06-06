@@ -1,6 +1,6 @@
 {
   classes: student_data(distinct_on: class) {
-    class
+    class,
   }
 	sections: student_data(distinct_on: section) {
     section

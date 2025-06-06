@@ -1,7 +1,7 @@
 SELECT * FROM public.student_data
 WHERE 
-  ({{!school_name.selectedOptionValue}} OR school_name = {{school_name.selectedOptionValue}})
+  ({{!add_tab_school.selectedOptionValue}} OR school_name = {{add_tab_school.selectedOptionValue}})
   AND
-  ({{!class_name.selectedOptionValue}} OR class = {{class_name.selectedOptionValue}})
+  ({{!add_tab_class.selectedOptionValue}} OR class = {{add_tab_class.selectedOptionValue}})
   AND
-  ({{!section.selectedOptionValue}} OR section = {{section.selectedOptionValue}})
+  ({{!add_tab_section.selectedOptionValue}} OR section = {{add_tab_section.selectedOptionValue}})

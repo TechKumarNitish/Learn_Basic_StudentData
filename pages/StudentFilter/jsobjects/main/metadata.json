@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6825b2bdd5842539393cc239_b05b7826-74b2-493f-8b7d-9304e08d6466",
+  "id": "StudentFilter_main",
+  "unpublishedCollection": {
+    "name": "main",
+    "pageId": "StudentFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "dropDownData",
+        "value": "[]"
+      },
+      {
+        "name": "filterParams",
+        "value": "{}"
+      }
+    ]
+  }
+}

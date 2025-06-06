@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.student_data\nWHERE \n  ({{!school_name.selectedOptionValue}} OR school_name = {{school_name.selectedOptionValue}})\n  AND\n  ({{!class_name.selectedOptionValue}} OR class = {{class_name.selectedOptionValue}})\n  AND\n  ({{!section.selectedOptionValue}} OR section = {{section.selectedOptionValue}})\n",
+      "body": "SELECT * FROM public.student_data\nWHERE \n  ({{!add_tab_school.selectedOptionValue}} OR school_name = {{add_tab_school.selectedOptionValue}})\n  AND\n  ({{!add_tab_class.selectedOptionValue}} OR class = {{add_tab_class.selectedOptionValue}})\n  AND\n  ({{!add_tab_section.selectedOptionValue}} OR section = {{add_tab_section.selectedOptionValue}})\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

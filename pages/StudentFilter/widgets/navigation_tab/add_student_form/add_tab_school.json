@@ -1,0 +1,67 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "{label:\"\", value:''}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "uw0h8ipk24",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "School Name",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Select a school name from dropdown",
+  "labelWidth": 5,
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 87,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 80,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{addTab.setClassDropDown();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentId": "lx3huwatt6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select a school name",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 54,
+  "serverSideFiltering": false,
+  "sourceData": "{{ main.dropDownData.map( (obj) =>{ return  {'label': obj.school_name, 'value': obj.school_name } })}}",
+  "topRow": 7,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "d0koz4q1wn",
+  "widgetName": "add_tab_school"
+}

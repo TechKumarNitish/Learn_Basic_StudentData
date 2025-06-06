@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "lb_tech_handler_js"
+  ],
+  "defs": "{\"!name\":\"LIB/lb_tech_handler_js\",\"lb_tech_handler_js\":{\"techHandlerQuery\":{\"!type\":\"fn()\"},\"techHandlerMisc\":{\"!type\":\"fn()\"},\"techHandlerValidations\":{\"!type\":\"fn()\"}}}",
+  "name": "lb_tech_handler_js",
+  "uidString": "lb_tech_handler_js_https://cdn.jsdelivr.net/npm/lb_tech_handler_js@1.2.40/+esm",
+  "url": "https://cdn.jsdelivr.net/npm/lb_tech_handler_js@1.2.40/+esm",
+  "version": "1.2.40"
+}

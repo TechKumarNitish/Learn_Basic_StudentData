@@ -1,0 +1,9 @@
+query GetFilteredStudents($where: student_data_bool_exp!) {
+  student_data(where: $where) {
+    roll_number
+    student_name
+    school_name
+    class
+    section
+  }
+}

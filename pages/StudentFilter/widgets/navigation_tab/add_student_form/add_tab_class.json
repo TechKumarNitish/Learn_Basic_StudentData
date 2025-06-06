@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( { label: \"\", value: \"\" }))(add_tab_class.options, add_tab_class.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": "{{\nadd_tab_school.selectedOptionValue===''\n}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "uw0h8ipk24",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Class",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Select a class from the dorpdown",
+  "labelWidth": 5,
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 95,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 88,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{addTab.setSectionDropDown();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 34,
+  "originalTopRow": 28,
+  "parentId": "lx3huwatt6",
+  "parentRowSpace": 10,
+  "placeholderText": "Select a class",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "{{[{ label: \"\", value: \"\" }]}}",
+  "topRow": 15,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "bzrsn8q0ql",
+  "widgetName": "add_tab_class"
+}

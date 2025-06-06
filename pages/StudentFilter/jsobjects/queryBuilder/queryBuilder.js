@@ -1,5 +1,7 @@
 export default {
-  droppedDownSelected() {
+	
+	
+  isAnyDropDownSelected() {
     return (
       school_name.selectedOptionValue !== '' ||
       class_name.selectedOptionValue !== '' ||
@@ -8,11 +10,11 @@ export default {
   },
 
   getAllStudentQueryBuilder() {
-    const isAnyDroppedDownSelected = this.droppedDownSelected();
+    const response = this.isAnyDropDownSelected();
     let whereBlock = '';
     const conditions = [];
 
-    if (isAnyDroppedDownSelected) {
+    if (response) {
       if (school_name.selectedOptionValue !== '') {
         conditions.push(`{ school_name: { _eq: "${school_name.selectedOptionValue}" } }`);
       }

@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( {'label': '', 'value': '' }))(school_name.options, school_name.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uw0h8ipk24",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "School Name",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Select a school name from dropdown",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 87,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 80,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{filterTab.setClassDropDown();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentId": "shgh6fn8n0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select a school name",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "serverSideFiltering": false,
+  "sourceData": "{{ main.dropDownData.map( (obj) =>{ return  {'label': obj.school_name, 'value': obj.school_name } })}}",
+  "topRow": 7,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "oxxuj9dozs",
+  "widgetName": "school_name"
+}

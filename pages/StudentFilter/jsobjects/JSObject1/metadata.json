@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6825b2bdd5842539393cc239_cca8b662-dcd7-4eb3-805c-c9a1c3be2da1",
+  "id": "StudentFilter_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "StudentFilter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
